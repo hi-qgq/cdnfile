@@ -1,0 +1,102 @@
+﻿
+.autocomplete_completionListElement
+{
+    visibility: hidden;
+    margin: 0px !important;
+    background-color: inherit;
+    color: windowtext;
+    cursor: 'default';
+    overflow: auto;
+    height: 200px;
+    text-align: left;
+    list-style-type: none;
+    font-size: 10pt;
+    font-family: Verdana, Arial;
+    border-right: #00d6f7 1px solid;
+    border-top: #00d6f7 1px solid;
+    border-left: #00d6f7 1px solid;
+    border-bottom: #00d6f7 1px solid;
+    
+}
+
+/* AutoComplete highlighted item */
+
+
+.autocomplete_highlightedListItem
+{
+    background-color: #FFFF99;
+    color: black;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial;
+    width: 400px;
+}
+
+.autocomplete_listItem
+{
+    background-color: window;
+    color: windowtext;
+    padding: 2px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    width:400px;
+}
+
+
+
+/*
+.autocomplete_listItem
+{
+   
+    font-weight: bold;
+	font-size: 11pt;
+	background: white;
+	cursor: pointer;
+	color: black;
+	font-family: Verdana;
+	width:400px;
+}
+
+.autocomplete_highlightedListItem
+{
+    font-weight: bold;
+	font-size: 11pt;
+	background: lightgrey;
+	cursor: pointer;
+	color: blue;
+	font-family: Verdana;
+	white-space: nowrap;
+}*/
+
+
+
+.MyCalendar .ajax__calendar_container
+{
+    border: 1px solid #646464;
+    background-color: #FFFACD;
+    color: #FF0000;
+    z-index: 100;
+    position: absolute;
+  
+}
+.MyCalendar .ajax__calendar_other .ajax__calendar_day, .MyCalendar .ajax__calendar_other .ajax__calendar_year
+{
+    color: black;
+}
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day, .MyCalendar .ajax__calendar_hover .ajax__calendar_month, .MyCalendar .ajax__calendar_hover .ajax__calendar_year
+{
+    color: black;
+}
+.MyCalendar .ajax__calendar_active .ajax__calendar_day, .MyCalendar .ajax__calendar_active .ajax__calendar_month, .MyCalendar .ajax__calendar_active .ajax__calendar_year
+{
+    color: black;
+    font-weight: bold;
+}
+/*
+.ajax__calendar_days > table > tbody > tr > td
+{
+    border: 1px solid #666666;
+    background-color: #99CCFF;
+}*/
